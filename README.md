@@ -1,2 +1,157 @@
 # ash-arch-god.github.io
-it is a website dedicated for students managed by students 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Test Portal</title>
+    <meta
+      name="description"
+      content="Student Test Portal – a simple way for admins to create tests and for students to take them online."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="stp-header">
+      <div class="stp-container stp-header-inner">
+        <div class="stp-logo">Student Test Portal</div>
+        <nav class="stp-nav">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#roles">For teachers & students</a>
+          <a href="#get-started" class="stp-nav-cta">Get started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="stp-hero">
+        <div class="stp-container stp-hero-inner">
+          <div class="stp-hero-copy">
+            <h1>Run tests for your students in minutes.</h1>
+            <p>
+              Student Test Portal helps teachers upload and schedule tests, while students get a
+              clean, distraction-free interface to complete them from any device.
+            </p>
+            <div class="stp-hero-actions">
+              <a href="#get-started" class="stp-btn stp-btn-primary">Get started</a>
+              <a href="#how-it-works" class="stp-btn stp-btn-secondary">See how it works</a>
+            </div>
+          </div>
+          <div class="stp-hero-card" aria-label="Overview of the portal">
+            <div class="stp-hero-card-header">Upcoming test</div>
+            <div class="stp-hero-card-body">
+              <h2>Midterm: Intro to Computer Science</h2>
+              <p><strong>Opens:</strong> 10:00 AM · <strong>Duration:</strong> 60 minutes</p>
+              <ul>
+                <li>Multiple-choice and short-answer questions</li>
+                <li>Timer and autosave enabled</li>
+                <li>Instant score summary (optional)</li>
+              </ul>
+              <button class="stp-btn stp-btn-full" type="button">Preview test flow</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="stp-section">
+        <div class="stp-container">
+          <h2>Key features</h2>
+          <div class="stp-grid stp-grid-3">
+            <article class="stp-card">
+              <h3>Simple test creation</h3>
+              <p>
+                Create tests with questions, options, correct answers, and scheduling in one
+                place.
+              </p>
+            </article>
+            <article class="stp-card">
+              <h3>Student-friendly interface</h3>
+              <p>
+                Students see only the tests assigned to them, with clear timing and progress.
+              </p>
+            </article>
+            <article class="stp-card">
+              <h3>Results & statistics</h3>
+              <p>
+                Review submissions, scores, and basic statistics to understand class
+                performance.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="stp-section stp-section-alt">
+        <div class="stp-container">
+          <h2>How it works</h2>
+          <ol class="stp-steps">
+            <li>
+              <strong>Teacher uploads a test</strong><br />
+              Add questions, define correct answers, set the schedule and time limit.
+            </li>
+            <li>
+              <strong>Students log in</strong><br />
+              Each student sees the tests assigned to them and can start when the window opens.
+            </li>
+            <li>
+              <strong>Students submit answers</strong><br />
+              Answers are saved, and submissions are stored securely once the test ends.
+            </li>
+            <li>
+              <strong>Teacher reviews results</strong><br />
+              View scores and basic statistics across students or per test.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="roles" class="stp-section">
+        <div class="stp-container stp-grid stp-grid-2">
+          <article class="stp-card">
+            <h2>For teachers</h2>
+            <ul class="stp-list">
+              <li>Upload and manage tests in one dashboard.</li>
+              <li>Schedule tests and limit their duration.</li>
+              <li>Monitor participation and review scores.</li>
+            </ul>
+            <a href="#get-started" class="stp-btn stp-btn-primary">Set up a teacher account</a>
+          </article>
+
+          <article class="stp-card">
+            <h2>For students</h2>
+            <ul class="stp-list">
+              <li>Log in to see all assigned tests.</li>
+              <li>Take tests from a laptop, tablet, or phone.</li>
+              <li>Get a confirmation once your test is submitted.</li>
+            </ul>
+            <a href="#get-started" class="stp-btn stp-btn-secondary">Access the portal</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="get-started" class="stp-section stp-section-accent">
+        <div class="stp-container stp-get-started">
+          <div>
+            <h2>Ready to put your next test online?</h2>
+            <p>
+              Connect this landing page to your authentication and test-management backend to
+              launch a full online testing experience.
+            </p>
+          </div>
+          <div class="stp-get-started-actions">
+            <a href="#" class="stp-btn stp-btn-primary">Teacher sign-in (placeholder)</a>
+            <a href="#" class="stp-btn stp-btn-secondary">Student sign-in (placeholder)</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="stp-footer">
+      <div class="stp-container stp-footer-inner">
+        <span>Student Test Portal</span>
+        <span>Landing page prototype &middot; Customize with your own branding.</span>
+      </div>
+    </footer>
+  </body>
+</html>
